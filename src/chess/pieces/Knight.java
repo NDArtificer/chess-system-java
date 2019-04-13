@@ -7,8 +7,11 @@ import chess.Color;
 
 public class Knight extends ChessPiece{
 
-	public Knight(Board board, Color color) {
+	
+	
+	public Knight(Board board, Color color ) {
 		super(board, color);
+
 		// TODO Auto-generated constructor stub
 		}
 		public String toString() {
@@ -80,6 +83,7 @@ public class Knight extends ChessPiece{
 			if (getBoard().positionExits(p) && canMove(p)) {
 			mat[p.getRow()][p.getColumn()] = true;
 			}  
+			
 			
 			return mat;
 		
