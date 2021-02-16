@@ -333,7 +333,7 @@ public class ChessMatch {
 		placeNewPiece('f', 1, new Bishop(board, Color.WHITE));
 		placeNewPiece('b', 1, new Knight(board, Color.WHITE));
 		placeNewPiece('g', 1, new Knight(board, Color.WHITE));
-		placeNewPiece('a', 2, new Pawn(board, Color.BLACK, this));
+		placeNewPiece('a', 2, new Pawn(board, Color.WHITE, this));
 		placeNewPiece('b', 2, new Pawn(board, Color.WHITE, this));
 		placeNewPiece('c', 2, new Pawn(board, Color.WHITE, this));
 		placeNewPiece('d', 2, new Pawn(board, Color.WHITE, this));
@@ -350,7 +350,7 @@ public class ChessMatch {
 		placeNewPiece('f', 8, new Bishop(board, Color.BLACK));
 		placeNewPiece('b', 8, new Knight(board, Color.BLACK));
 		placeNewPiece('g', 8, new Knight(board, Color.BLACK));
-		placeNewPiece('a', 7, new Pawn(board, Color.WHITE, this));
+		placeNewPiece('a', 7, new Pawn(board, Color.BLACK, this));
 		placeNewPiece('b', 7, new Pawn(board, Color.BLACK, this));
 		placeNewPiece('c', 7, new Pawn(board, Color.BLACK, this));
 		placeNewPiece('d', 7, new Pawn(board, Color.BLACK, this));
